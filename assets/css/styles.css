@@ -228,9 +228,9 @@ a {
 }
 
 /*Адаптив*/
-@media (min-width: 768px) { /* мобілка */
+@media (min-width: 768px) { 
   .navbar__list {
-    flex-direction: column;
+    flex-direction: row;
     gap: 10px;
   }
 
@@ -256,12 +256,12 @@ a {
   }
 
   .experience__container {
-    flex-direction: column;
+    flex-direction: row;
     gap: 30px;
   }
 
   .experience__item {
-    flex-direction: column;
+    flex-direction: row;
     gap: 10px;
   }
 
@@ -293,7 +293,7 @@ a {
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) { /* планшети */
+@media (min-width: 768px) and (max-width: 1110px) { /* планшети */
   .navbar__list {
     gap: 15px;
   }
