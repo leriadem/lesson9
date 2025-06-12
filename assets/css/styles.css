@@ -228,7 +228,7 @@ a {
 }
 
 /*Адаптив*/
-@media (min-width: 768px) {
+@media (min-width: 768px) { /* мобілка */
   .navbar__list {
     flex-direction: column;
     gap: 10px;
@@ -293,7 +293,7 @@ a {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1110px) {
+@media (min-width: 768px) and (max-width: 1110px) { /* планшети */
   .navbar__list {
     gap: 15px;
   }
