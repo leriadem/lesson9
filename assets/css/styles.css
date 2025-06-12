@@ -321,3 +321,41 @@ a {
     gap: 15px;
   }
 }
+
+@media (min-width: 1111px) {
+  .navbar__list {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .experience__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .experience__item {
+    flex-direction: row;
+    flex: 1 1 30%;
+    gap: 20px;
+  }
+
+  .hero {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .hero__title {
+    font-size: 3rem;
+  }
+
+  .hero__description {
+    font-size: 1.2rem;
+  }
+
+  .hero__button {
+    font-size: 1.2rem;
+    min-width: 200px;
+  }
+}
