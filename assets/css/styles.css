@@ -296,6 +296,7 @@ a {
 @media (min-width: 768px) and (max-width: 1110px) { /* планшети */
   .navbar__list {
     gap: 15px;
+    flex-direction: row;
   }
 
   .hero {
@@ -311,9 +312,11 @@ a {
 
   .experience__container {
     flex-wrap: wrap;
+    flex-direction: row;
   }
 
   .experience__item {
+    flex-direction: row;
     flex: 1 1 45%;
     gap: 15px;
   }
