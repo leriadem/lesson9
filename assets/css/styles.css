@@ -233,7 +233,6 @@ a {
     flex-direction: column;
     gap: 10px
   }
-}
 
 .hero {
   max-width: 100%;
@@ -291,4 +290,4 @@ a {
 .video__iframe {
   min-height: 180px;
 }
-
+}
