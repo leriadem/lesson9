@@ -261,6 +261,7 @@ a {
   }
 
   .experience__item {
+    flex-direction: column;
     gap: 10px;
   }
 
