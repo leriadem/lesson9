@@ -227,6 +227,12 @@ a {
   font-size: 0.8125rem;
 }
 
+.navbar__list,
+.experience__container,
+.experience__item {
+  display: flex;
+}
+
 /*Адаптив*/
 @media (min-width: 768px) { 
   .navbar__list {
