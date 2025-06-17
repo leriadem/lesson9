@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html {
+  font-family: $font-family;
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: $line-height-sm;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: $line-height-sm;
+}
+
+a {
+  color: $color-black;
+  text-decoration: none;
+}

@@ -1,0 +1,29 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: $container-secondary;
+
+  &__title {
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+
+  &__description {
+    margin-bottom: 57px;
+    color: $color-secondary;
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 225px;
+    min-height: 65px;
+    text-transform: uppercase;
+    padding: 0.5em;
+    background-color: $color-primary;
+    color: $color-white;
+    letter-spacing: $letter-spacing;
+  }
+}

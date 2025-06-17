@@ -1,0 +1,22 @@
+.navbar {
+  margin-bottom: 141px;
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 27px;
+    margin-left: -0.75em;
+  }
+
+  &__link {
+    display: block;
+    letter-spacing: $letter-spacing;
+    padding: 0.5em 0.75em;
+    text-transform: uppercase;
+
+    &--active {
+      color: $color-primary;
+      font-weight: 500;
+    }
+  }
+}

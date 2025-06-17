@@ -1,0 +1,18 @@
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin button-base($bg-color: $color-dark-blue, $color: $color-white) {
+  @include flex-center;
+  padding-top: 10px;
+  background-color: $bg-color;
+  color: $color;
+  text-decoration: none;
+  line-height: $line-height;
+  letter-spacing: 1.7px;
+  text-align: center;
+  text-transform: uppercase;
+  width: fit-content;
+}
